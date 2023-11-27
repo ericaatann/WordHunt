@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.android.wordhunt.app-mergeDebugResources-46:/values-gu/values-gu.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\eriim\\.gradle\\caches\\transforms-3\\38f251d1520a9ff1e6c1e4efc300dcc2\\transformed\\play-services-basement-18.1.0\\res\\values-gu\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "142",
+                        "endOffsets": "337"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "358",
+                        "endColumns": "146",
+                        "endOffsets": "500"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\eriim\\.gradle\\caches\\transforms-3\\93df8d9948672a1ac9de4361877b3f83\\transformed\\material3-1.0.0\\res\\values-gu\\values-gu.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,134,211",
+                        "endColumns": "78,76,77",
+                        "endOffsets": "129,206,284"
+                    },
+                    "to": {
+                        "startLines": "4,8,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "279,697,861",
+                        "endColumns": "78,76,77",
+                        "endOffsets": "353,769,934"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\eriim\\.gradle\\caches\\transforms-3\\d07a0cb5f05cbada87d30bd57f33a441\\transformed\\core-1.9.0\\res\\values-gu\\values-gu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1677",
+                        "endColumns": "100",
+                        "endOffsets": "1773"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\eriim\\.gradle\\caches\\transforms-3\\bffd72fa0e72df915f68c9057e3de00a\\transformed\\ui-1.4.0\\res\\values-gu\\values-gu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,197,279,372,471,558,644,745,832,918,986,1055,1138,1221,1296,1372,1438",
+                        "endColumns": "91,81,92,98,86,85,100,86,85,67,68,82,82,74,75,65,115",
+                        "endOffsets": "192,274,367,466,553,639,740,827,913,981,1050,1133,1216,1291,1367,1433,1549"
+                    },
+                    "to": {
+                        "startLines": "2,3,6,7,9,11,12,13,14,15,16,17,18,19,21,22,23",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,197,505,598,774,939,1025,1126,1213,1299,1367,1436,1519,1602,1778,1854,1920",
+                        "endColumns": "91,81,92,98,86,85,100,86,85,67,68,82,82,74,75,65,115",
+                        "endOffsets": "192,274,593,692,856,1020,1121,1208,1294,1362,1431,1514,1597,1672,1849,1915,2031"
+                    }
+                }
+            ]
+        }
+    ]
+}

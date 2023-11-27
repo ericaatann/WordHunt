@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.android.wordhunt.app-mergeDebugResources-46:/values-si/values-si.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\eriim\\.gradle\\caches\\transforms-3\\93df8d9948672a1ac9de4361877b3f83\\transformed\\material3-1.0.0\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,133,205",
+                        "endColumns": "77,71,79",
+                        "endOffsets": "128,200,280"
+                    },
+                    "to": {
+                        "startLines": "4,8,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "277,692,846",
+                        "endColumns": "77,71,79",
+                        "endOffsets": "350,759,921"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\eriim\\.gradle\\caches\\transforms-3\\38f251d1520a9ff1e6c1e4efc300dcc2\\transformed\\play-services-basement-18.1.0\\res\\values-si\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "134",
+                        "endOffsets": "329"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "355",
+                        "endColumns": "138",
+                        "endOffsets": "489"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\eriim\\.gradle\\caches\\transforms-3\\d07a0cb5f05cbada87d30bd57f33a441\\transformed\\core-1.9.0\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1654",
+                        "endColumns": "100",
+                        "endOffsets": "1750"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\eriim\\.gradle\\caches\\transforms-3\\bffd72fa0e72df915f68c9057e3de00a\\transformed\\ui-1.4.0\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,194,277,376,475,557,642,733,819,899,976,1051,1130,1212,1285,1366,1433",
+                        "endColumns": "88,82,98,98,81,84,90,85,79,76,74,78,81,72,80,66,117",
+                        "endOffsets": "189,272,371,470,552,637,728,814,894,971,1046,1125,1207,1280,1361,1428,1546"
+                    },
+                    "to": {
+                        "startLines": "2,3,6,7,9,11,12,13,14,15,16,17,18,19,21,22,23",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,194,494,593,764,926,1011,1102,1188,1268,1345,1420,1499,1581,1755,1836,1903",
+                        "endColumns": "88,82,98,98,81,84,90,85,79,76,74,78,81,72,80,66,117",
+                        "endOffsets": "189,272,588,687,841,1006,1097,1183,1263,1340,1415,1494,1576,1649,1831,1898,2016"
+                    }
+                }
+            ]
+        }
+    ]
+}

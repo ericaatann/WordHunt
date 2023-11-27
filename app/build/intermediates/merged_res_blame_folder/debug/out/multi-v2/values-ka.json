@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.android.wordhunt.app-mergeDebugResources-46:/values-ka/values-ka.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\eriim\\.gradle\\caches\\transforms-3\\38f251d1520a9ff1e6c1e4efc300dcc2\\transformed\\play-services-basement-18.1.0\\res\\values-ka\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "138",
+                        "endOffsets": "333"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "364",
+                        "endColumns": "142",
+                        "endOffsets": "502"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\eriim\\.gradle\\caches\\transforms-3\\bffd72fa0e72df915f68c9057e3de00a\\transformed\\ui-1.4.0\\res\\values-ka\\values-ka.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,201,287,386,489,579,659,755,845,932,1003,1072,1161,1252,1324,1403,1473",
+                        "endColumns": "95,85,98,102,89,79,95,89,86,70,68,88,90,71,78,69,120",
+                        "endOffsets": "196,282,381,484,574,654,750,840,927,998,1067,1156,1247,1319,1398,1468,1589"
+                    },
+                    "to": {
+                        "startLines": "2,3,6,7,9,11,12,13,14,15,16,17,18,19,21,22,23",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,201,507,606,782,953,1033,1129,1219,1306,1377,1446,1535,1626,1799,1878,1948",
+                        "endColumns": "95,85,98,102,89,79,95,89,86,70,68,88,90,71,78,69,120",
+                        "endOffsets": "196,282,601,704,867,1028,1124,1214,1301,1372,1441,1530,1621,1693,1873,1943,2064"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\eriim\\.gradle\\caches\\transforms-3\\93df8d9948672a1ac9de4361877b3f83\\transformed\\material3-1.0.0\\res\\values-ka\\values-ka.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,132,205",
+                        "endColumns": "76,72,80",
+                        "endOffsets": "127,200,281"
+                    },
+                    "to": {
+                        "startLines": "4,8,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "287,709,872",
+                        "endColumns": "76,72,80",
+                        "endOffsets": "359,777,948"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\eriim\\.gradle\\caches\\transforms-3\\d07a0cb5f05cbada87d30bd57f33a441\\transformed\\core-1.9.0\\res\\values-ka\\values-ka.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1698",
+                        "endColumns": "100",
+                        "endOffsets": "1794"
+                    }
+                }
+            ]
+        }
+    ]
+}

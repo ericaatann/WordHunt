@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.android.wordhunt.app-mergeDebugResources-46:/values-vi/values-vi.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\eriim\\.gradle\\caches\\transforms-3\\38f251d1520a9ff1e6c1e4efc300dcc2\\transformed\\play-services-basement-18.1.0\\res\\values-vi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "123",
+                        "endOffsets": "318"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "366",
+                        "endColumns": "127",
+                        "endOffsets": "489"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\eriim\\.gradle\\caches\\transforms-3\\d07a0cb5f05cbada87d30bd57f33a441\\transformed\\core-1.9.0\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1691",
+                        "endColumns": "100",
+                        "endOffsets": "1787"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\eriim\\.gradle\\caches\\transforms-3\\bffd72fa0e72df915f68c9057e3de00a\\transformed\\ui-1.4.0\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,201,287,393,493,585,670,763,857,938,1008,1078,1168,1259,1331,1408,1474",
+                        "endColumns": "95,85,105,99,91,84,92,93,80,69,69,89,90,71,76,65,113",
+                        "endOffsets": "196,282,388,488,580,665,758,852,933,1003,1073,1163,1254,1326,1403,1469,1583"
+                    },
+                    "to": {
+                        "startLines": "2,3,6,7,9,11,12,13,14,15,16,17,18,19,21,22,23",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,201,494,600,775,945,1030,1123,1217,1298,1368,1438,1528,1619,1792,1869,1935",
+                        "endColumns": "95,85,105,99,91,84,92,93,80,69,69,89,90,71,76,65,113",
+                        "endOffsets": "196,282,595,695,862,1025,1118,1212,1293,1363,1433,1523,1614,1686,1864,1930,2044"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\eriim\\.gradle\\caches\\transforms-3\\93df8d9948672a1ac9de4361877b3f83\\transformed\\material3-1.0.0\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,134,209",
+                        "endColumns": "78,74,77",
+                        "endOffsets": "129,204,282"
+                    },
+                    "to": {
+                        "startLines": "4,8,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "287,700,867",
+                        "endColumns": "78,74,77",
+                        "endOffsets": "361,770,940"
+                    }
+                }
+            ]
+        }
+    ]
+}
