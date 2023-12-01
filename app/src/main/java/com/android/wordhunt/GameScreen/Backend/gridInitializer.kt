@@ -18,8 +18,8 @@ class gridInitializer {
         private fun initializeGrid() {
             val letterArr: Array<Array<Char>> = Array(4) { Array(4) { ' ' } }
 
-            for (i in 1..4) {
-                for (j in 1..4) {
+            for (i in 0..3) {
+                for (j in 0..3) {
                     letterArr[i][j] = ('A'..'Z').random()
                 }
             }
