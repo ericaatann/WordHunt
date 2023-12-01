@@ -9,6 +9,7 @@
     app:navGraph="@navigation/nav_graph"
     android:orientation="vertical"
     android:padding="16dp"
+    android:background="@color/Light_blue"
     tools:context=".MainActivity">
 
     <!-- Top Half: Timer, Score, Number of Words -->
@@ -23,13 +24,15 @@
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:gravity="center"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@color/light_green">
 
             <!-- Add your timer UI components here -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Timer"
+                android:fontFamily="casual"
+                android:text="@string/Timer"
                 android:textSize="24sp" />
             <!-- Add more timer-related UI components as needed -->
 
@@ -40,13 +43,15 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:gravity="center"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@color/light_green">
 
             <!-- Add your score UI components here -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Score"
+                android:fontFamily="casual"
+                android:text="@string/Score"
                 android:textSize="18sp" />
             <!-- Add more score-related UI components as needed -->
 
@@ -58,12 +63,14 @@
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:gravity="center"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@color/light_green">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="# Words"
+                android:fontFamily="casual"
+                android:text="@string/Num_of_Words"
                 android:textSize="18sp" />
             <!-- Add more components as needed -->
 
@@ -196,6 +203,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Submit" />
+        android:text="@string/Submit" />
 
 </LinearLayout>
