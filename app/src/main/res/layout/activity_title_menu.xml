@@ -10,7 +10,7 @@
     android:layout_centerInParent="true"
     android:layout_gravity="center"
     android:gravity="center"
-    android:background="@color/Light_blue"
+    android:background="@drawable/gradient"
     tools:context=".TitleMenuActivity">
 
     <!-- Title -->

@@ -12,4 +12,9 @@
     <color name="back_red">#d84242</color>
     <color name="back_purple">#913f92</color>
     <color name="gold">#FFD700</color>
+    <color name="light_pink">#F3CFC6</color>
+    <color name="beige">#E2E5CB</color>
+    <color name="pastel_pink">#DEA5A4</color>
+    <color name="water">#C8E8FC</color>
+    <color name="peach">#FFE5B4</color>
 </resources>
