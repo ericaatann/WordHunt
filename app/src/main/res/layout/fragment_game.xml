@@ -35,7 +35,8 @@
                 android:text="@string/Timer"
                 android:textSize="34sp"
                 android:textColor="@color/white"
-                android:background="@color/cloudy"/>
+                android:background="@color/cloudy"
+                android:textStyle="bold"/>
             <!-- Add more timer-related UI components as needed -->
 
         </LinearLayout>
@@ -55,7 +56,8 @@
                 android:text="@string/Score"
                 android:textSize="34sp"
                 android:textColor="@color/white"
-                android:background="@color/brown"/>
+                android:background="@color/brown"
+                android:textStyle="bold"/>
             <!-- Add more score-related UI components as needed -->
 
         </LinearLayout>
@@ -75,7 +77,8 @@
                 android:text="@string/Num_of_Words"
                 android:textSize="34sp"
                 android:textColor="@color/white"
-                android:background="@color/brown"/>
+                android:background="@color/brown"
+                android:textStyle="bold"/>
             <!-- Add more components as needed -->
 
         </LinearLayout>
