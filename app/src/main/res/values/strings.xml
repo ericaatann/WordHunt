@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">WordHunt</string>
     <string name="Timer">Timer</string>
     <string name="Score">Score</string>
     <string name="Num_of_Words"># words</string>
