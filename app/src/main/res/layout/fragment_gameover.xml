@@ -34,6 +34,5 @@
         android:textSize="18sp"
         android:background="@drawable/button_background" />
 
-    <!-- Add more UI components, such as score display, share button, etc. -->
 
 </RelativeLayout>

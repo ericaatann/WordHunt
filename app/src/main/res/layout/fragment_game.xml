@@ -9,7 +9,7 @@
     app:navGraph="@navigation/nav_graph"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@drawable/gradient"
+    android:background="@drawable/forest"
     tools:context=".MainActivity">
 
     <!-- Top Half: Timer, Score, Number of Words -->
@@ -24,8 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:gravity="center"
-            android:orientation="horizontal"
-            android:background="@drawable/gradient">
+            android:orientation="horizontal">
 
             <!-- Add your timer UI components here -->
             <TextView
@@ -44,8 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:gravity="center"
-            android:orientation="horizontal"
-            android:background="@drawable/gradient">
+            android:orientation="horizontal">
 
             <!-- Add your score UI components here -->
             <TextView
@@ -64,8 +62,7 @@
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:gravity="center"
-            android:orientation="horizontal"
-            android:background="@drawable/gradient">
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
