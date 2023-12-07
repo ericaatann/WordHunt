@@ -8,7 +8,11 @@
         android:id="@+id/gameFragment"
         android:name="com.android.wordhunt.FragmentGame"
         android:label="GameFragment"
-        tools:layout="@layout/fragment_game" />
+        tools:layout="@layout/fragment_game" >
+        <action
+            android:id="@+id/action_gameFragment_to_fragmentGameOver2"
+            app:destination="@id/fragmentGameOver" />
+    </fragment>
     <fragment
         android:id="@+id/fragmentMenu"
         android:name="com.android.wordhunt.FragmentMenu"
@@ -16,6 +20,17 @@
         <action
             android:id="@+id/action_fragmentMenu_to_gameFragment"
             app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentGameOver"
+        android:name="com.android.wordhunt.FragmentGameOver"
+        android:label="FragmentGameOver" >
+        <action
+            android:id="@+id/action_fragmentGameOver_to_gameFragment2"
+            app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_fragmentGameOver_to_fragmentMenu"
+            app:destination="@id/fragmentMenu" />
     </fragment>
 
 </navigation>
