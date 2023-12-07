@@ -1,0 +1,33 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentMenu">
+
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.android.wordhunt.FragmentGame"
+        android:label="GameFragment"
+        tools:layout="@layout/fragment_game" >
+        <action
+            android:id="@+id/action_gameFragment_to_fragmentGameOver"
+            app:destination="@id/fragmentGameOver" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentMenu"
+        android:name="com.android.wordhunt.FragmentMenu"
+        android:label="FragmentMenu" >
+        <action
+            android:id="@+id/action_fragmentMenu_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentGameOver"
+        android:name="com.android.wordhunt.FragmentGameOver"
+        android:label="FragmentGameOver" >
+        <action
+            android:id="@+id/action_fragmentGameOver_to_fragmentMenu"
+            app:destination="@id/fragmentMenu" />
+    </fragment>
+
+</navigation>
