@@ -1,78 +1,106 @@
 [
     {
-        "merged": "com.android.wordhunt.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.android.wordhunt.app-main-50:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.android.wordhunt.app-merged_res-73:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.android.wordhunt.app-main-75:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.android.wordhunt.app-merged_res-48:/layout_activity_title_menu.xml.flat",
-        "source": "com.android.wordhunt.app-main-50:/layout/activity_title_menu.xml"
+        "merged": "com.android.wordhunt.app-merged_res-73:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.android.wordhunt.app-main-75:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.android.wordhunt.app-merged_res-48:/layout_activity_main.xml.flat",
-        "source": "com.android.wordhunt.app-main-50:/layout/activity_main.xml"
+        "merged": "com.android.wordhunt.app-merged_res-73:/navigation_nav_graph.xml.flat",
+        "source": "com.android.wordhunt.app-main-75:/navigation/nav_graph.xml"
     },
     {
-        "merged": "com.android.wordhunt.app-merged_res-48:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.android.wordhunt.app-main-50:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.android.wordhunt.app-merged_res-73:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.android.wordhunt.app-main-75:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.android.wordhunt.app-merged_res-48:/drawable_rounded_button_bg.xml.flat",
-        "source": "com.android.wordhunt.app-main-50:/drawable/rounded_button_bg.xml"
+        "merged": "com.android.wordhunt.app-merged_res-73:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.android.wordhunt.app-main-75:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.android.wordhunt.app-merged_res-48:/xml_backup_rules.xml.flat",
-        "source": "com.android.wordhunt.app-main-50:/xml/backup_rules.xml"
+        "merged": "com.android.wordhunt.app-merged_res-73:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.android.wordhunt.app-main-75:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.android.wordhunt.app-merged_res-48:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.android.wordhunt.app-main-50:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.android.wordhunt.app-merged_res-73:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.android.wordhunt.app-main-75:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.android.wordhunt.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.android.wordhunt.app-main-50:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.android.wordhunt.app-merged_res-73:/drawable_game_over_background.jpg.flat",
+        "source": "com.android.wordhunt.app-main-75:/drawable/game_over_background.jpg"
     },
     {
-        "merged": "com.android.wordhunt.app-merged_res-48:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.android.wordhunt.app-main-50:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.android.wordhunt.app-merged_res-73:/layout_fragment_gameover.xml.flat",
+        "source": "com.android.wordhunt.app-main-75:/layout/fragment_gameover.xml"
     },
     {
-        "merged": "com.android.wordhunt.app-merged_res-48:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.android.wordhunt.app-main-50:/drawable/ic_launcher_background.xml"
+        "merged": "com.android.wordhunt.app-merged_res-73:/drawable_button_background.xml.flat",
+        "source": "com.android.wordhunt.app-main-75:/drawable/button_background.xml"
     },
     {
-        "merged": "com.android.wordhunt.app-merged_res-48:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.android.wordhunt.app-main-50:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.android.wordhunt.app-merged_res-73:/drawable_game_over_image.gif.flat",
+        "source": "com.android.wordhunt.app-main-75:/drawable/game_over_image.gif"
     },
     {
-        "merged": "com.android.wordhunt.app-merged_res-48:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.android.wordhunt.app-main-50:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.android.wordhunt.app-merged_res-73:/layout_fragment_menu.xml.flat",
+        "source": "com.android.wordhunt.app-main-75:/layout/fragment_menu.xml"
     },
     {
-        "merged": "com.android.wordhunt.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.android.wordhunt.app-main-50:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.android.wordhunt.app-merged_res-73:/drawable_forest.jpg.flat",
+        "source": "com.android.wordhunt.app-main-75:/drawable/forest.jpg"
     },
     {
-        "merged": "com.android.wordhunt.app-merged_res-48:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.android.wordhunt.app-main-50:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.android.wordhunt.app-merged_res-73:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.android.wordhunt.app-main-75:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.android.wordhunt.app-merged_res-48:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.android.wordhunt.app-main-50:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.android.wordhunt.app-merged_res-73:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.android.wordhunt.app-main-75:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.android.wordhunt.app-merged_res-48:/xml_data_extraction_rules.xml.flat",
-        "source": "com.android.wordhunt.app-main-50:/xml/data_extraction_rules.xml"
+        "merged": "com.android.wordhunt.app-merged_res-73:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.android.wordhunt.app-main-75:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.android.wordhunt.app-merged_res-48:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.android.wordhunt.app-main-50:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.android.wordhunt.app-merged_res-73:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.android.wordhunt.app-main-75:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.android.wordhunt.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.android.wordhunt.app-main-50:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.android.wordhunt.app-merged_res-73:/layout_fragment_game.xml.flat",
+        "source": "com.android.wordhunt.app-main-75:/layout/fragment_game.xml"
     },
     {
-        "merged": "com.android.wordhunt.app-merged_res-48:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.android.wordhunt.app-main-50:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.android.wordhunt.app-merged_res-73:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.android.wordhunt.app-main-75:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.android.wordhunt.app-merged_res-73:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.android.wordhunt.app-main-75:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.android.wordhunt.app-merged_res-73:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.android.wordhunt.app-main-75:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.android.wordhunt.app-merged_res-73:/drawable_rounded_button_bg.xml.flat",
+        "source": "com.android.wordhunt.app-main-75:/drawable/rounded_button_bg.xml"
+    },
+    {
+        "merged": "com.android.wordhunt.app-merged_res-73:/layout_activity_main.xml.flat",
+        "source": "com.android.wordhunt.app-main-75:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.android.wordhunt.app-merged_res-73:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.android.wordhunt.app-main-75:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.android.wordhunt.app-merged_res-73:/xml_data_extraction_rules.xml.flat",
+        "source": "com.android.wordhunt.app-main-75:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.android.wordhunt.app-merged_res-73:/xml_backup_rules.xml.flat",
+        "source": "com.android.wordhunt.app-main-75:/xml/backup_rules.xml"
     }
 ]
