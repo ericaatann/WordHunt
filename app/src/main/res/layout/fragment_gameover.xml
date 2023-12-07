@@ -31,7 +31,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
         android:text="Retry"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:background="@drawable/button_background" />
 
     <Button
@@ -42,7 +42,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:text="Menu"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:background="@drawable/button_background" />
 
 
