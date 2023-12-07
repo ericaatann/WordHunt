@@ -33,7 +33,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="casual"
                 android:text="@string/Timer"
-                android:textSize="24sp" />
+                android:textSize="34sp"
+                android:textColor="@color/white"
+                android:background="@color/cloudy"/>
             <!-- Add more timer-related UI components as needed -->
 
         </LinearLayout>
@@ -51,7 +53,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="casual"
                 android:text="@string/Score"
-                android:textSize="18sp" />
+                android:textSize="34sp"
+                android:textColor="@color/white"
+                android:background="@color/brown"/>
             <!-- Add more score-related UI components as needed -->
 
         </LinearLayout>
@@ -69,7 +73,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="casual"
                 android:text="@string/Num_of_Words"
-                android:textSize="18sp" />
+                android:textSize="34sp"
+                android:textColor="@color/white"
+                android:background="@color/brown"/>
             <!-- Add more components as needed -->
 
         </LinearLayout>
