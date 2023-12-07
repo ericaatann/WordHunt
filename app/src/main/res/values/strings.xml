@@ -8,5 +8,6 @@
     <string name="Play">Play</string>
     <string name="Stats">Stats</string>
     <string name="Tutorial">Tutorial</string>
+    <string name="score_format">Score: %d</string>
     <string name="Word_View">Word </string>
 </resources>

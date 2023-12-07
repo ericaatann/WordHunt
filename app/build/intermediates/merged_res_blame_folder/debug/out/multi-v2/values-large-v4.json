@@ -4,7 +4,7 @@
             "outputFile": "com.android.wordhunt.app-mergeDebugResources-71:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nathan\\.gradle\\caches\\transforms-3\\4448147f344f019aad661f551b659c2c\\transformed\\appcompat-1.2.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\virix\\.gradle\\caches\\transforms-3\\4448147f344f019aad661f551b659c2c\\transformed\\appcompat-1.2.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\nathan\\.gradle\\caches\\transforms-3\\2d6728b3878e923206ac5360a6db3c34\\transformed\\material-1.4.0-beta01\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\virix\\.gradle\\caches\\transforms-3\\2d6728b3878e923206ac5360a6db3c34\\transformed\\material-1.4.0-beta01\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

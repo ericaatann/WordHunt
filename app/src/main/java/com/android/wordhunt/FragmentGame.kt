@@ -16,6 +16,7 @@ class FragmentGame : Fragment() {
     private var score = 0
     private var timer: CountDownTimer? = null
     private var string: String = ""
+    private lateinit var scoreTextView: TextView
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -28,7 +29,37 @@ class FragmentGame : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         initializeGame()
+
+        // Find and initialize the score TextView
+        scoreTextView = view.findViewById(R.id.scoreTextView)
+        updateScoreText()
+
         startGame()
+    }
+
+    private fun updateScoreText() {
+        scoreTextView.text = getString(R.string.score_format, score)
+    }
+
+    private fun checkAnswer() {
+        // answer checking logic HERE
+        // If the answer is correct, increment and update the score
+        val wordLength = string.length
+        val wordScore = when (wordLength) {
+            3 -> 100
+            4 -> 400
+            5 -> 800
+            6 -> 1400
+            7 -> 1800
+            8 -> 2200
+            else -> 0 // if the word is incorrect
+        }
+
+        // Add score to the total score
+        score += wordScore
+
+        // Update score
+        updateScoreText()
     }
 
     private fun initializeGame() {
@@ -86,10 +117,6 @@ class FragmentGame : Fragment() {
                 gameOver()
             }
         }.start()
-    }
-
-    private fun checkAnswer() {
-        // Implement your answer checking logic
     }
 
     private fun updateTimerText(millisUntilFinished: Long) {
