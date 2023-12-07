@@ -12,7 +12,7 @@
     android:background="@drawable/forest"
     tools:context=".MainActivity">
 
-    <!-- Top Half: Timer, Score, Number of Words -->
+    <!-- Top Half: Timer, Score, Number of Words, and Word Display -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -22,7 +22,7 @@
         <!-- Timer Bubble -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="120dp"
+            android:layout_height="88dp"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -31,19 +31,22 @@
                 android:id="@+id/timerTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@color/cloudy"
                 android:fontFamily="casual"
                 android:text="@string/Timer"
-                android:textSize="34sp"
                 android:textColor="@color/white"
-                android:background="@color/cloudy"/>
+                android:textSize="34sp"
+                android:textStyle="bold" />
             <!-- Add more timer-related UI components as needed -->
 
         </LinearLayout>
 
         <!-- Score Bubble -->
+
+        <!-- Number of Words Bubble -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="83dp"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -51,16 +54,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@color/brown"
                 android:fontFamily="casual"
                 android:text="@string/Score"
-                android:textSize="34sp"
                 android:textColor="@color/white"
-                android:background="@color/brown"/>
+                android:textSize="34sp"
+                android:textStyle="bold" />
             <!-- Add more score-related UI components as needed -->
 
         </LinearLayout>
-
-        <!-- Number of Words Bubble -->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -69,14 +71,36 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/numOfWordsTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="casual"
                 android:text="@string/Num_of_Words"
                 android:textSize="34sp"
                 android:textColor="@color/white"
-                android:background="@color/brown"/>
+                android:background="@color/brown"
+                android:textStyle="bold"/>
             <!-- Add more components as needed -->
+
+        </LinearLayout>
+
+        <!-- Word Display -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/word_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="@string/Word_View"
+                android:textSize="34sp"
+                android:textColor="@color/white"
+                android:background="@color/brown"
+                android:textStyle="bold"/>
 
         </LinearLayout>
 
@@ -257,6 +281,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/Submit" />
+        android:text="@string/Submit"
+        android:textSize="20sp"
+        />
 
 </LinearLayout>

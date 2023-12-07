@@ -2121,6 +2121,7 @@ int id normal 0x7f080132
 int id notification_background 0x7f080133
 int id notification_main_column 0x7f080134
 int id notification_main_column_container 0x7f080135
+int id numOfWordsTextView 0x7f0801de
 int id off 0x7f080136
 int id on 0x7f080137
 int id onAttachStateChangeListener 0x7f080138
@@ -2285,6 +2286,7 @@ int id visible 0x7f0801d6
 int id visible_removing_fragment_view_tag 0x7f0801d7
 int id withText 0x7f0801d8
 int id withinBounds 0x7f0801d9
+int id word_view 0x7f0801df
 int id wrap 0x7f0801da
 int id wrap_content 0x7f0801db
 int id wrapped_composition_tag 0x7f0801dc
@@ -2459,6 +2461,7 @@ int string Submit 0x7f100004
 int string Timer 0x7f100005
 int string Title 0x7f100006
 int string Tutorial 0x7f100007
+int string Word_View 0x7f10008a
 int string abc_action_bar_home_description 0x7f100008
 int string abc_action_bar_up_description 0x7f100009
 int string abc_action_menu_overflow_description 0x7f10000a

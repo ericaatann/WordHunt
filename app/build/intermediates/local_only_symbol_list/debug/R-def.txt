@@ -57,6 +57,7 @@ id gridLayout
 id menu_button
 id nav_graph
 id nav_host_fragment
+id numOfWordsTextView
 id playButton
 id retry_button
 id statsButton
@@ -64,6 +65,7 @@ id submit_button
 id timerTextView
 id titleTextView
 id tutorialButton
+id word_view
 layout activity_main
 layout fragment_game
 layout fragment_gameover
@@ -79,6 +81,7 @@ string Submit
 string Timer
 string Title
 string Tutorial
+string Word_View
 string app_name
 style GridButton
 style SubmitButton

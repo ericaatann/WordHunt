@@ -1,15 +1,23 @@
 [
     {
-        "merged": "com.android.wordhunt.app-mergeDebugResources-72:/layout/fragment_menu.xml",
-        "source": "com.android.wordhunt.app-main-75:/layout/fragment_menu.xml"
+        "merged": "C:\\Users\\nathan\\.gradle\\daemon\\8.0\\com.android.wordhunt.app-mergeDebugResources-72:\\layout\\fragment_gameover.xml",
+        "source": "C:\\Users\\nathan\\.gradle\\daemon\\8.0\\com.android.wordhunt.app-main-75:\\layout\\fragment_gameover.xml"
+    },
+    {
+        "merged": "C:\\Users\\nathan\\.gradle\\daemon\\8.0\\com.android.wordhunt.app-mergeDebugResources-72:\\layout\\fragment_menu.xml",
+        "source": "C:\\Users\\nathan\\.gradle\\daemon\\8.0\\com.android.wordhunt.app-main-75:\\layout\\fragment_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\nathan\\.gradle\\daemon\\8.0\\com.android.wordhunt.app-mergeDebugResources-72:\\layout\\fragment_game.xml",
+        "source": "C:\\Users\\nathan\\.gradle\\daemon\\8.0\\com.android.wordhunt.app-main-75:\\layout\\fragment_game.xml"
     },
     {
         "merged": "com.android.wordhunt.app-mergeDebugResources-72:/layout/fragment_gameover.xml",
         "source": "com.android.wordhunt.app-main-75:/layout/fragment_gameover.xml"
     },
     {
-        "merged": "com.android.wordhunt.app-mergeDebugResources-72:/layout/activity_main.xml",
-        "source": "com.android.wordhunt.app-main-75:/layout/activity_main.xml"
+        "merged": "C:\\Users\\nathan\\.gradle\\daemon\\8.0\\com.android.wordhunt.app-mergeDebugResources-72:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\nathan\\.gradle\\daemon\\8.0\\com.android.wordhunt.app-main-75:\\layout\\activity_main.xml"
     },
     {
         "merged": "com.android.wordhunt.app-mergeDebugResources-72:/layout/fragment_game.xml",

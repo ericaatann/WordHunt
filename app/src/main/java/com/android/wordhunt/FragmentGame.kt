@@ -50,6 +50,8 @@ class FragmentGame : Fragment() {
                         // need to add text to total string
                         buttonMap[button]?.setPressed(true)
                         string += button.text
+                        val word : TextView? = view?.findViewById(R.id.word_view)
+                        word?.text = string
                     }
                     else {
                         // create toast saying button was already used
@@ -69,6 +71,8 @@ class FragmentGame : Fragment() {
             // check to see if it is a valid value
             // reset string
             string = ""
+            val word : TextView? = view?.findViewById(R.id.word_view)
+            word?.text = string
         }
     }
 

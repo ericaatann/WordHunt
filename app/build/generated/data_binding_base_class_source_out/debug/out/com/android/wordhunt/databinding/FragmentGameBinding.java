@@ -73,10 +73,16 @@ public final class FragmentGameBinding implements ViewBinding {
   public final GridLayout gridLayout;
 
   @NonNull
+  public final TextView numOfWordsTextView;
+
+  @NonNull
   public final Button submitButton;
 
   @NonNull
   public final TextView timerTextView;
+
+  @NonNull
+  public final TextView wordView;
 
   private FragmentGameBinding(@NonNull LinearLayout rootView, @NonNull Button button00,
       @NonNull Button button01, @NonNull Button button02, @NonNull Button button03,
@@ -84,8 +90,8 @@ public final class FragmentGameBinding implements ViewBinding {
       @NonNull Button button13, @NonNull Button button20, @NonNull Button button21,
       @NonNull Button button22, @NonNull Button button23, @NonNull Button button30,
       @NonNull Button button31, @NonNull Button button32, @NonNull Button button33,
-      @NonNull GridLayout gridLayout, @NonNull Button submitButton,
-      @NonNull TextView timerTextView) {
+      @NonNull GridLayout gridLayout, @NonNull TextView numOfWordsTextView,
+      @NonNull Button submitButton, @NonNull TextView timerTextView, @NonNull TextView wordView) {
     this.rootView = rootView;
     this.button00 = button00;
     this.button01 = button01;
@@ -104,8 +110,10 @@ public final class FragmentGameBinding implements ViewBinding {
     this.button32 = button32;
     this.button33 = button33;
     this.gridLayout = gridLayout;
+    this.numOfWordsTextView = numOfWordsTextView;
     this.submitButton = submitButton;
     this.timerTextView = timerTextView;
+    this.wordView = wordView;
   }
 
   @Override
@@ -237,6 +245,12 @@ public final class FragmentGameBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.numOfWordsTextView;
+      TextView numOfWordsTextView = ViewBindings.findChildViewById(rootView, id);
+      if (numOfWordsTextView == null) {
+        break missingId;
+      }
+
       id = R.id.submit_button;
       Button submitButton = ViewBindings.findChildViewById(rootView, id);
       if (submitButton == null) {
@@ -249,9 +263,16 @@ public final class FragmentGameBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.word_view;
+      TextView wordView = ViewBindings.findChildViewById(rootView, id);
+      if (wordView == null) {
+        break missingId;
+      }
+
       return new FragmentGameBinding((LinearLayout) rootView, button00, button01, button02,
           button03, button10, button11, button12, button13, button20, button21, button22, button23,
-          button30, button31, button32, button33, gridLayout, submitButton, timerTextView);
+          button30, button31, button32, button33, gridLayout, numOfWordsTextView, submitButton,
+          timerTextView, wordView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

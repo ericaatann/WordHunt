@@ -2122,6 +2122,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id numOfWordsTextView
 id off
 id on
 id onAttachStateChangeListener
@@ -2286,6 +2287,7 @@ id visible
 id visible_removing_fragment_view_tag
 id withText
 id withinBounds
+id word_view
 id wrap
 id wrap_content
 id wrapped_composition_tag
@@ -2460,6 +2462,7 @@ string Submit
 string Timer
 string Title
 string Tutorial
+string Word_View
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
