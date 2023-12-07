@@ -22,7 +22,7 @@
         <!-- Timer Bubble -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="88dp"
+            android:layout_height="74dp"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -37,16 +37,13 @@
                 android:textColor="@color/white"
                 android:textSize="34sp"
                 android:textStyle="bold" />
-            <!-- Add more timer-related UI components as needed -->
 
         </LinearLayout>
 
         <!-- Score Bubble -->
-
-        <!-- Number of Words Bubble -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="83dp"
+            android:layout_height="74dp"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -65,9 +62,10 @@
 
         </LinearLayout>
 
+        <!-- Number of Words Bubble -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="74dp"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -88,7 +86,7 @@
         <!-- Word Display -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="74dp"
             android:gravity="center"
             android:orientation="horizontal">
 
