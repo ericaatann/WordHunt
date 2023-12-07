@@ -11,14 +11,14 @@ class FragmentGameOver : Fragment(R.layout.fragment_gameover) {
         super.onViewCreated(view, savedInstanceState)
         // retry button
         val retryButton : Button? = view.findViewById(R.id.retry_button)
-//        val menuButton : Button? = view.findViewById(R.id.)
+        val menuButton : Button? = view.findViewById(R.id.menu_button)
 
         retryButton?.setOnClickListener {
-            findNavController().navigate(R.id.action_fragmentMenu_to_gameFragment)
+            findNavController().navigate(R.id.action_fragmentGameOver_to_gameFragment)
         }
 
-//        menuButton?.setOnClickListener {
-//            findNavController().navigate(R.id.action_fragmentGameOver_to_fragmentMenu)
-//        }
+        menuButton?.setOnClickListener {
+            findNavController().navigate(R.id.action_fragmentGameOver_to_fragmentMenu)
+        }
     }
 }

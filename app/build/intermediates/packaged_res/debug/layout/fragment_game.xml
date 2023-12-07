@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:name="androidx.navigation.fragment.NavHostFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:defaultNavHost="true"
@@ -32,7 +33,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="casual"
                 android:text="@string/Timer"
-                android:textSize="24sp" />
+                android:textSize="34sp"
+                android:textColor="@color/white"
+                android:background="@color/cloudy"/>
             <!-- Add more timer-related UI components as needed -->
 
         </LinearLayout>
@@ -50,7 +53,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="casual"
                 android:text="@string/Score"
-                android:textSize="18sp" />
+                android:textSize="34sp"
+                android:textColor="@color/white"
+                android:background="@color/brown"/>
             <!-- Add more score-related UI components as needed -->
 
         </LinearLayout>
@@ -68,7 +73,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="casual"
                 android:text="@string/Num_of_Words"
-                android:textSize="18sp" />
+                android:textSize="34sp"
+                android:textColor="@color/white"
+                android:background="@color/brown"/>
             <!-- Add more components as needed -->
 
         </LinearLayout>

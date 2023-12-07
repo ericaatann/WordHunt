@@ -28,14 +28,18 @@ public final class FragmentGameoverBinding implements ViewBinding {
   public final TextView gameOverTextView;
 
   @NonNull
+  public final Button menuButton;
+
+  @NonNull
   public final Button retryButton;
 
   private FragmentGameoverBinding(@NonNull RelativeLayout rootView,
       @NonNull ImageView gameOverImage, @NonNull TextView gameOverTextView,
-      @NonNull Button retryButton) {
+      @NonNull Button menuButton, @NonNull Button retryButton) {
     this.rootView = rootView;
     this.gameOverImage = gameOverImage;
     this.gameOverTextView = gameOverTextView;
+    this.menuButton = menuButton;
     this.retryButton = retryButton;
   }
 
@@ -78,14 +82,20 @@ public final class FragmentGameoverBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.retryButton;
+      id = R.id.menu_button;
+      Button menuButton = ViewBindings.findChildViewById(rootView, id);
+      if (menuButton == null) {
+        break missingId;
+      }
+
+      id = R.id.retry_button;
       Button retryButton = ViewBindings.findChildViewById(rootView, id);
       if (retryButton == null) {
         break missingId;
       }
 
       return new FragmentGameoverBinding((RelativeLayout) rootView, gameOverImage, gameOverTextView,
-          retryButton);
+          menuButton, retryButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

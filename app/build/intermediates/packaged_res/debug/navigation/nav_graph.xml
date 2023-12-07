@@ -10,7 +10,7 @@
         android:label="GameFragment"
         tools:layout="@layout/fragment_game" >
         <action
-            android:id="@+id/action_gameFragment_to_fragmentGameOver"
+            android:id="@+id/action_fragmentGame_to_fragmentGameOver"
             app:destination="@id/fragmentGameOver" />
     </fragment>
     <fragment
@@ -18,13 +18,16 @@
         android:name="com.android.wordhunt.FragmentMenu"
         android:label="FragmentMenu" >
         <action
-            android:id="@+id/action_fragmentMenu_to_gameFragment"
+            android:id="@+id/action_fragmentMenu_to_fragmentGame"
             app:destination="@id/gameFragment" />
     </fragment>
     <fragment
         android:id="@+id/fragmentGameOver"
         android:name="com.android.wordhunt.FragmentGameOver"
         android:label="FragmentGameOver" >
+        <action
+            android:id="@+id/action_fragmentGameOver_to_gameFragment"
+            app:destination="@id/gameFragment" />
         <action
             android:id="@+id/action_fragmentGameOver_to_fragmentMenu"
             app:destination="@id/fragmentMenu" />

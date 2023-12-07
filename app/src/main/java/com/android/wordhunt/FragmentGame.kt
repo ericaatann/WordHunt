@@ -9,6 +9,7 @@ import android.widget.Button
 import android.widget.Toast
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 
 class FragmentGame : Fragment() {
 
@@ -95,6 +96,7 @@ class FragmentGame : Fragment() {
 
     private fun gameOver() {
         // Implement game over logic
+        findNavController().navigate(R.id.action_fragmentGame_to_fragmentGameOver)
     }
 
     override fun onDestroy() {
