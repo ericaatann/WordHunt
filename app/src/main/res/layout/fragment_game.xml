@@ -29,10 +29,11 @@
 
             <!-- Add your timer UI components here -->
             <TextView
+                android:id="@+id/timer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="casual"
-                android:text="@string/Timer"
+                android:text="1:00"
                 android:textSize="24sp" />
             <!-- Add more timer-related UI components as needed -->
 
