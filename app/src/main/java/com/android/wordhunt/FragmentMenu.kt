@@ -14,7 +14,7 @@ class FragmentMenu : Fragment(R.layout.fragment_menu) {
         val playButton: Button = view.findViewById(R.id.playButton)
 
         playButton.setOnClickListener {
-            findNavController().navigate(R.id.action_fragmentMenu_to_gameFragment)
+            findNavController().navigate(R.id.action_fragmentMenu_to_fragmentGame)
         }
     }
 }
