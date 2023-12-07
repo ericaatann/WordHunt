@@ -6,8 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import android.widget.TextView
 import android.widget.Toast
+import android.widget.TextView
 import androidx.fragment.app.Fragment
 
 class FragmentGame : Fragment() {
@@ -89,8 +89,8 @@ class FragmentGame : Fragment() {
 
     private fun updateTimerText(millisUntilFinished: Long) {
         val seconds = millisUntilFinished / 1000
-        val timer : TextView? = view?.findViewById(R.id.timer)
-        timer?.text = seconds.toString()
+        val timerTextView: TextView? = view?.findViewById(R.id.timerTextView)
+        timerTextView?.text = seconds.toString()
     }
 
     private fun gameOver() {
