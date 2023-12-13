@@ -1,30 +1,31 @@
 package com.android.wordhunt
 
+import kotlin.random.Random
+
 class GridInitializer {
     companion object {
-        private var letterArr: Array<Array<Char>>? = null
-
-        fun get(): Array<Array<Char>>? {
-            if (letterArr == null) {
-                initializeGrid()
-            }
-            return letterArr
-        }
-
-        fun set(letterArr: Array<Array<Char>>) {
-            Companion.letterArr = letterArr
-        }
-
-        private fun initializeGrid() {
+        fun initializeGrid() : Array<Array<Char>> {
             val letterArr: Array<Array<Char>> = Array(4) { Array(4) { ' ' } }
+            var vowelCount = 0
+            val vowels = listOf('A', 'E', 'I', 'O', 'U')
+            val consonants = listOf('B', 'C', 'D', 'F', 'G', 'H',
+                'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'X', 'Y', 'Z')
 
             for (i in 0..3) {
                 for (j in 0..3) {
-                    letterArr[i][j] = ('A'..'Z').random()
+                    val randomVal = Random.nextInt(2);
+                    if (randomVal == 0 && vowelCount < 8) {
+                        letterArr[i][j] = vowels[Random.nextInt(vowels.size)]
+                        vowelCount++
+                    }
+                    else {
+                        letterArr[i][j] = consonants[Random.nextInt(consonants.size)]
+                    }
+
                 }
             }
 
-            set(letterArr)
+            return letterArr
         }
     }
 

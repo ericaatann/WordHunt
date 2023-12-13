@@ -9,6 +9,6 @@ interface WordApi {
         "X-RapidAPI-Key: d398c12c47msh9fbb57260239aaep13d89fjsna43576430d63",
         "X-RapidAPI-Host: wordsapiv1.p.rapidapi.com"
     )
-    @GET("/words/word/frequency")
+    @GET("/words/{word}/frequency")
     suspend fun getWord() : Response<WordName>
 }

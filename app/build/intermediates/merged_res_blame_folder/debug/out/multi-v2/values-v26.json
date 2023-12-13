@@ -4,7 +4,7 @@
             "outputFile": "com.android.wordhunt.app-mergeDebugResources-71:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\virix\\.gradle\\caches\\transforms-3\\4448147f344f019aad661f551b659c2c\\transformed\\appcompat-1.2.0\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\nathan\\.gradle\\caches\\transforms-3\\4448147f344f019aad661f551b659c2c\\transformed\\appcompat-1.2.0\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

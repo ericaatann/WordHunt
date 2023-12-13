@@ -76,6 +76,9 @@ public final class FragmentGameBinding implements ViewBinding {
   public final TextView numOfWordsTextView;
 
   @NonNull
+  public final TextView scoreTextView;
+
+  @NonNull
   public final Button submitButton;
 
   @NonNull
@@ -91,7 +94,8 @@ public final class FragmentGameBinding implements ViewBinding {
       @NonNull Button button22, @NonNull Button button23, @NonNull Button button30,
       @NonNull Button button31, @NonNull Button button32, @NonNull Button button33,
       @NonNull GridLayout gridLayout, @NonNull TextView numOfWordsTextView,
-      @NonNull Button submitButton, @NonNull TextView timerTextView, @NonNull TextView wordView) {
+      @NonNull TextView scoreTextView, @NonNull Button submitButton,
+      @NonNull TextView timerTextView, @NonNull TextView wordView) {
     this.rootView = rootView;
     this.button00 = button00;
     this.button01 = button01;
@@ -111,6 +115,7 @@ public final class FragmentGameBinding implements ViewBinding {
     this.button33 = button33;
     this.gridLayout = gridLayout;
     this.numOfWordsTextView = numOfWordsTextView;
+    this.scoreTextView = scoreTextView;
     this.submitButton = submitButton;
     this.timerTextView = timerTextView;
     this.wordView = wordView;
@@ -251,6 +256,12 @@ public final class FragmentGameBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.scoreTextView;
+      TextView scoreTextView = ViewBindings.findChildViewById(rootView, id);
+      if (scoreTextView == null) {
+        break missingId;
+      }
+
       id = R.id.submit_button;
       Button submitButton = ViewBindings.findChildViewById(rootView, id);
       if (submitButton == null) {
@@ -271,8 +282,8 @@ public final class FragmentGameBinding implements ViewBinding {
 
       return new FragmentGameBinding((LinearLayout) rootView, button00, button01, button02,
           button03, button10, button11, button12, button13, button20, button21, button22, button23,
-          button30, button31, button32, button33, gridLayout, numOfWordsTextView, submitButton,
-          timerTextView, wordView);
+          button30, button31, button32, button33, gridLayout, numOfWordsTextView, scoreTextView,
+          submitButton, timerTextView, wordView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

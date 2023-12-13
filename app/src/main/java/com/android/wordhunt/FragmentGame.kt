@@ -2,6 +2,7 @@ package com.android.wordhunt
 
 import android.os.Bundle
 import android.os.CountDownTimer
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,7 +10,13 @@ import android.widget.Button
 import android.widget.Toast
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleCoroutineScope
+import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
 class FragmentGame : Fragment() {
 
@@ -67,7 +74,7 @@ class FragmentGame : Fragment() {
 
 //        val timerTextView: TextButton? = view?.findViewById(R.id.timerTextView) ?: return
 
-        val grid = GridInitializer.get()
+        val grid = GridInitializer.initializeGrid()
         val buttonMap = HashMap<Button?, ButtonWrapper>()
 
         for (i in 0 until grid!!.size) {
@@ -101,9 +108,10 @@ class FragmentGame : Fragment() {
             }
             // check to see if it is a valid value
             // reset string
-            string = ""
+            string = "\t\t\t\t\t\t"
             val word : TextView? = view?.findViewById(R.id.word_view)
             word?.text = string
+//            lifecycleScope.launch { ApiFunctions.checkWord(string) }
         }
     }
 

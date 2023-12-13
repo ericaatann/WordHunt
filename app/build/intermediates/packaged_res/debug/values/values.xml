@@ -29,8 +29,9 @@
     <string name="Timer">Timer</string>
     <string name="Title">WordHunt</string>
     <string name="Tutorial">Tutorial</string>
-    <string name="Word_View">Word </string>
+    <string name="Word_View">						</string>
     <string name="app_name">WordHunt</string>
+    <string name="score_format">Score: %d</string>
     <style name="GridButton">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">0dp</item>

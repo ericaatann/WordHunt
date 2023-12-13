@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:2:1-30:12
 MERGED from [androidx.databinding:databinding-adapters:8.1.4] C:\Users\nathan\.gradle\caches\transforms-3\d4a1c44c66e7f217eacd9b9cf7f360d2\transformed\databinding-adapters-8.1.4\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-ktx:8.1.4] C:\Users\nathan\.gradle\caches\transforms-3\d5b2d769649736ee3cb2a0bcc82d04cc\transformed\databinding-ktx-8.1.4\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:8.2.0] C:\Users\nathan\.gradle\caches\transforms-3\0d2a09b08f7d4de920500016faba4e10\transformed\databinding-runtime-8.2.0\AndroidManifest.xml:2:1-7:12
@@ -116,9 +116,19 @@ MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\nat
 		INJECTED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:5:5-66
+MERGED from [com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\nathan\.gradle\caches\transforms-3\39039cb925f230180f23be997f66784b\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\nathan\.gradle\caches\transforms-3\39039cb925f230180f23be997f66784b\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\nathan\.gradle\caches\transforms-3\2010a7198d2f208904962423c5fdb12b\transformed\firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\nathan\.gradle\caches\transforms-3\2010a7198d2f208904962423c5fdb12b\transformed\firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\nathan\.gradle\caches\transforms-3\4a5a2bf2dafc1ec0de5d9d41d66a0de8\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\nathan\.gradle\caches\transforms-3\4a5a2bf2dafc1ec0de5d9d41d66a0de8\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:5:5-26:19
-INJECTED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:5:5-26:19
+ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:7:5-28:19
+INJECTED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:7:5-28:19
 MERGED from [com.google.firebase:firebase-inappmessaging-ktx:20.4.0] C:\Users\nathan\.gradle\caches\transforms-3\ef20f585f39d11073459c8beff3ae129\transformed\firebase-inappmessaging-ktx-20.4.0\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-inappmessaging-ktx:20.4.0] C:\Users\nathan\.gradle\caches\transforms-3\ef20f585f39d11073459c8beff3ae129\transformed\firebase-inappmessaging-ktx-20.4.0\AndroidManifest.xml:8:5-16:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.4.0] C:\Users\nathan\.gradle\caches\transforms-3\c598dbee2499eb8d30f16d10330e2f90\transformed\ui-test-manifest-1.4.0\AndroidManifest.xml:22:5-26:19
@@ -170,43 +180,43 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\nathan\.gradle\caches\transforms-3\d07a0cb5f05cbada87d30bd57f33a441\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:12:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:8:9-54
+		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:10:9-54
 	android:roundIcon
-		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:13:9-54
 	tools:targetApi
-		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:14:9-29
+		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:16:9-29
 	android:icon
-		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:13:9-47
+		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:15:9-47
 	android:dataExtractionRules
-		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:7:9-65
+		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:9:9-65
 activity#com.android.wordhunt.MainActivity
-ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:15:9-25:20
+ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:17:9-27:20
 	android:label
-		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:18:13-45
+		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:20:13-45
 	android:exported
-		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:19:13-36
 	android:theme
-		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:19:13-51
+		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:21:13-51
 	android:name
-		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:16:13-41
+		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:18:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml:25:27-74
 uses-sdk
 INJECTED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\nathan\Documents\Wordhunt\app\src\main\AndroidManifest.xml
@@ -469,14 +479,6 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\nathan\.gradle\caches\transforms-3\7a4e9b68fc306c091544d38f355d4778\transformed\transport-runtime-3.1.9\AndroidManifest.xml:22:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\nathan\.gradle\caches\transforms-3\39039cb925f230180f23be997f66784b\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:7:22-76
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\nathan\.gradle\caches\transforms-3\39039cb925f230180f23be997f66784b\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:8:5-67
-MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\nathan\.gradle\caches\transforms-3\2010a7198d2f208904962423c5fdb12b\transformed\firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
-MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\nathan\.gradle\caches\transforms-3\2010a7198d2f208904962423c5fdb12b\transformed\firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\nathan\.gradle\caches\transforms-3\4a5a2bf2dafc1ec0de5d9d41d66a0de8\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\nathan\.gradle\caches\transforms-3\4a5a2bf2dafc1ec0de5d9d41d66a0de8\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
-	android:name
-		ADDED from [com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\nathan\.gradle\caches\transforms-3\39039cb925f230180f23be997f66784b\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:8:22-64
 meta-data#com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingKtxRegistrar
 ADDED from [com.google.firebase:firebase-inappmessaging:20.4.0] C:\Users\nathan\.gradle\caches\transforms-3\39039cb925f230180f23be997f66784b\transformed\firebase-inappmessaging-20.4.0\AndroidManifest.xml:14:13-16:85
 	android:value
