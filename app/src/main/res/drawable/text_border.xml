@@ -1,0 +1,11 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#80FFFFFF" /> <!-- 80 is the hex value for 50% opacity -->
+    <stroke
+        android:color="@android:color/black"
+        android:width="2dp" />
+    <padding
+        android:left="5dp"
+        android:top="5dp"
+        android:right="5dp"
+        android:bottom="5dp" />
+</shape>
