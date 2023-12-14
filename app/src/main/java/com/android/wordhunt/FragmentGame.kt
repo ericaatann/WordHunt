@@ -10,13 +10,10 @@ import android.widget.Button
 import android.widget.Toast
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.LifecycleCoroutineScope
-import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.async
+import kotlinx.coroutines.delay
 
 class FragmentGame : Fragment() {
 
@@ -107,8 +104,23 @@ class FragmentGame : Fragment() {
                 buttonWrapper.setPressed(false)
             }
             // check to see if it is a valid value
+
+            var stringcopy = string
+            val wordApi = RetrofitHelper.getInstance().create(WordApi::class.java)
+            // launching a new coroutine
+            var validWord = GlobalScope.async {
+                val result = wordApi.getWord(stringcopy)
+                if (result.body().toString().equals("null")) {
+                    Log.d("user: ", "Not a valid word")
+                    false
+                }
+                else {
+                    Log.d("user: ", result.body().toString())
+                    true
+                }
+            }
             // reset string
-            string = "\t\t\t\t\t\t"
+            string = ""
             val word : TextView? = view?.findViewById(R.id.word_view)
             word?.text = string
 //            lifecycleScope.launch { ApiFunctions.checkWord(string) }

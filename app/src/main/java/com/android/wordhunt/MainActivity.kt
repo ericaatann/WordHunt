@@ -20,14 +20,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val wordApi = RetrofitHelper.getInstance().create(WordApi::class.java)
-        // launching a new coroutine
-        GlobalScope.launch {
-            val result = wordApi.getWord()
-            if (result != null)
-            // Checking the results
-                Log.d("user: ", result.body().toString())
-        }
-
     }
 }
