@@ -20,10 +20,10 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
 class FragmentGame : Fragment() {
-
     private var score = 0
     private var timer: CountDownTimer? = null
     private var string: String = ""
+    private var longestString: String = ""
     private lateinit var scoreTextView: TextView
     private val usedWords = mutableSetOf<String>()
 
@@ -55,7 +55,7 @@ class FragmentGame : Fragment() {
         // Check if the word is already used
         if (usedWords.contains(string.lowercase())) {
             // toast that the word is a duplicate
-            val toast = Toast.makeText(requireContext(), "Already used", Toast.LENGTH_SHORT)
+            val toast = Toast.makeText(requireContext(), "Word has already been used", Toast.LENGTH_SHORT)
             toast.show()
             return
         }
@@ -130,9 +130,13 @@ class FragmentGame : Fragment() {
                         Log.d("user: ", "Not a valid word")
                         // Update your UI, perhaps show an error message
                     } else {
-                        val string = result.body().toString()
+                        var string = result.body().toString()
+                        string = parseString(string)
                         Log.d("user: ", string)
-                        checkAnswer(parseString(string))
+                        checkAnswer(string)
+                        if (string.length > longestString.length) {
+                            longestString = string
+                        }
                         // Update your UI with the valid word, e.g., checkAnswer(string)
                     }
                 }
@@ -177,15 +181,18 @@ class FragmentGame : Fragment() {
         val highestScore = sharedPreferences.getInt("highest_score", 0)
         if (score > highestScore) {
             editor.putInt("highest_score", score)
-            editor.apply()
         }
+
         // Save longest word
         val longestWord = sharedPreferences.getString("longest_word", "") ?: ""
-        if (string.length > longestWord.length) {
-            editor.putString("longest_word", string)
-            editor.apply()
+        if (longestString.length > longestWord.length || longestString.length == longestWord.length && longestString > longestWord) {
+            editor.putString("longest_word", longestString)
         }
+
+        // Apply changes
+        editor.apply()
     }
+
 
     override fun onDestroy() {
         timer?.cancel()

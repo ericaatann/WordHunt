@@ -1874,6 +1874,7 @@ int id action_fragmentGameOver_to_fragmentMenu 0x7f08003a
 int id action_fragmentGameOver_to_gameFragment 0x7f08003b
 int id action_fragmentGame_to_fragmentGameOver 0x7f08003c
 int id action_fragmentMenu_to_fragmentGame 0x7f08003d
+int id action_fragmentMenu_to_fragmentStats 0x7f0801e3
 int id action_image 0x7f08003e
 int id action_menu_divider 0x7f08003f
 int id action_menu_presenter 0x7f080040
@@ -2006,6 +2007,7 @@ int id floating 0x7f0800be
 int id forever 0x7f0800bf
 int id fragmentGameOver 0x7f0800c0
 int id fragmentMenu 0x7f0800c1
+int id fragmentStats 0x7f0801e4
 int id fragment_container_view_tag 0x7f0800c2
 int id gameFragment 0x7f0800c3
 int id gameOverImage 0x7f0800c4
@@ -2022,6 +2024,7 @@ int id guideline 0x7f0800ce
 int id header_title 0x7f0800cf
 int id hide_in_inspector_tag 0x7f0800d0
 int id hideable 0x7f0800d1
+int id highestScoreTextView 0x7f0801e5
 int id home 0x7f0800d2
 int id homeAsUp 0x7f0800d3
 int id honorRequest 0x7f0800d4
@@ -2050,6 +2053,7 @@ int id linear 0x7f0800ea
 int id listMode 0x7f0800eb
 int id list_item 0x7f0800ec
 int id locale 0x7f0800ed
+int id longestWordTextView 0x7f0801e6
 int id ltr 0x7f0800ee
 int id masked 0x7f0800ef
 int id material_clock_display 0x7f0800f0
@@ -2275,7 +2279,6 @@ int id transition_transform 0x7f0801cb
 int id triangle 0x7f0801cc
 int id tutorialButton 0x7f0801cd
 int id tutorialDescriptionTextView 0x7f0801e1
-int id tutorialImageView 0x7f0801e2
 int id unchecked 0x7f0801ce
 int id uniform 0x7f0801cf
 int id unlabeled 0x7f0801d0
@@ -2384,6 +2387,7 @@ int layout design_text_input_start_icon 0x7f0b002c
 int layout fragment_game 0x7f0b002d
 int layout fragment_gameover 0x7f0b002e
 int layout fragment_menu 0x7f0b002f
+int layout fragment_stats 0x7f0b0075
 int layout fragment_tutorial 0x7f0b0074
 int layout material_chip_input_combo 0x7f0b0030
 int layout material_clock_display 0x7f0b0031
@@ -2519,10 +2523,13 @@ int string exposed_dropdown_menu_content_description 0x7f100039
 int string fab_transformation_scrim_behavior 0x7f10003a
 int string fab_transformation_sheet_behavior 0x7f10003b
 int string hide_bottom_view_on_scroll_behavior 0x7f10003c
+int string highest_score_label 0x7f10008c
 int string icon_content_description 0x7f10003d
 int string in_progress 0x7f10003e
 int string indeterminate 0x7f10003f
+int string initial_score 0x7f10008d
 int string item_view_role_description 0x7f100040
+int string longest_word_label 0x7f10008e
 int string material_clock_display_divider 0x7f100041
 int string material_clock_toggle_content_description 0x7f100042
 int string material_hour_selection 0x7f100043
@@ -2578,6 +2585,7 @@ int string mtrl_picker_toggle_to_calendar_input_mode 0x7f100074
 int string mtrl_picker_toggle_to_day_selection 0x7f100075
 int string mtrl_picker_toggle_to_text_input_mode 0x7f100076
 int string mtrl_picker_toggle_to_year_selection 0x7f100077
+int string na_placeholder 0x7f10008f
 int string nav_app_bar_navigate_up_description 0x7f100078
 int string nav_app_bar_open_drawer_description 0x7f100079
 int string navigation_menu 0x7f10007a
@@ -2598,6 +2606,7 @@ int string status_bar_notification_info_overflow 0x7f100088
 int string switch_role 0x7f100089
 int string tab 0x7f10008a
 int string template_percent 0x7f10008b
+int string tutorial_description 0x7f100090
 int style AlertDialog_AppCompat 0x7f110000
 int style AlertDialog_AppCompat_Light 0x7f110001
 int style AndroidThemeColorAccentYellow 0x7f110002

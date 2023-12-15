@@ -31,7 +31,12 @@
     <string name="Tutorial">Tutorial</string>
     <string name="Word_View">						</string>
     <string name="app_name">WordHunt</string>
+    <string name="highest_score_label">Highest Score</string>
+    <string name="initial_score">0</string>
+    <string name="longest_word_label">Longest Word</string>
+    <string name="na_placeholder">N/A</string>
     <string name="score_format">Score: %d</string>
+    <string name="tutorial_description">Welcome to the tutorial! Follow these steps to learn how to use the app.\n\n1) Tap letters together by clicking the buttons.\n\n2) Make as many words as possible.</string>
     <style name="GridButton">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">0dp</item>

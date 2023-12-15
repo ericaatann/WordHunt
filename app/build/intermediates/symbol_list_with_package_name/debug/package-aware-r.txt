@@ -1875,6 +1875,7 @@ id action_fragmentGameOver_to_fragmentMenu
 id action_fragmentGameOver_to_gameFragment
 id action_fragmentGame_to_fragmentGameOver
 id action_fragmentMenu_to_fragmentGame
+id action_fragmentMenu_to_fragmentStats
 id action_image
 id action_menu_divider
 id action_menu_presenter
@@ -2007,6 +2008,7 @@ id floating
 id forever
 id fragmentGameOver
 id fragmentMenu
+id fragmentStats
 id fragment_container_view_tag
 id gameFragment
 id gameOverImage
@@ -2023,6 +2025,7 @@ id guideline
 id header_title
 id hide_in_inspector_tag
 id hideable
+id highestScoreTextView
 id home
 id homeAsUp
 id honorRequest
@@ -2051,6 +2054,7 @@ id linear
 id listMode
 id list_item
 id locale
+id longestWordTextView
 id ltr
 id masked
 id material_clock_display
@@ -2276,7 +2280,6 @@ id transition_transform
 id triangle
 id tutorialButton
 id tutorialDescriptionTextView
-id tutorialImageView
 id unchecked
 id uniform
 id unlabeled
@@ -2385,6 +2388,7 @@ layout design_text_input_start_icon
 layout fragment_game
 layout fragment_gameover
 layout fragment_menu
+layout fragment_stats
 layout fragment_tutorial
 layout material_chip_input_combo
 layout material_clock_display
@@ -2520,10 +2524,13 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
+string highest_score_label
 string icon_content_description
 string in_progress
 string indeterminate
+string initial_score
 string item_view_role_description
+string longest_word_label
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -2579,6 +2586,7 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string na_placeholder
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string navigation_menu
@@ -2599,6 +2607,7 @@ string status_bar_notification_info_overflow
 string switch_role
 string tab
 string template_percent
+string tutorial_description
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
