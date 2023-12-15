@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/forest"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Display Highest Score -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/highest_score_label"
+        android:textSize="40sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/highestScoreTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/initial_score"
+        android:textSize="36sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Display Longest Word -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/longest_word_label"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/longestWordTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/na_placeholder"
+        android:textSize="36sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"/>
+
+</LinearLayout>
