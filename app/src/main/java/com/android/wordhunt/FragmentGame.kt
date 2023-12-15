@@ -24,6 +24,8 @@ class FragmentGame : Fragment() {
     private var timer: CountDownTimer? = null
     private var string: String = ""
     private lateinit var scoreTextView: TextView
+    private val usedWords = mutableSetOf<String>()
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -49,7 +51,13 @@ class FragmentGame : Fragment() {
     }
 
     private fun checkAnswer(string : String) {
-        // answer checking logic HERE
+        // Check if the word is already used
+        if (usedWords.contains(string.lowercase())) {
+            // toast that the word is a duplicate
+            val toast = Toast.makeText(requireContext(), "Already used", Toast.LENGTH_SHORT)
+            toast.show()
+            return
+        }
         // If the answer is correct, increment and update the score
         val wordLength = string.length
         val wordScore = when (wordLength) {
@@ -67,6 +75,9 @@ class FragmentGame : Fragment() {
 
         // Update score
         updateScoreText()
+
+        // Add the word to the used words set
+        usedWords.add(string.lowercase())
     }
 
     private fun initializeGame() {
