@@ -11,9 +11,12 @@ import android.widget.Toast
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 class FragmentGame : Fragment() {
 
@@ -45,7 +48,7 @@ class FragmentGame : Fragment() {
         scoreTextView.text = getString(R.string.score_format, score)
     }
 
-    private fun checkAnswer() {
+    private fun checkAnswer(string : String) {
         // answer checking logic HERE
         // If the answer is correct, increment and update the score
         val wordLength = string.length
@@ -108,15 +111,18 @@ class FragmentGame : Fragment() {
             var stringcopy = string
             val wordApi = RetrofitHelper.getInstance().create(WordApi::class.java)
             // launching a new coroutine
-            var validWord = GlobalScope.async {
+            GlobalScope.launch(Dispatchers.IO) {
                 val result = wordApi.getWord(stringcopy)
-                if (result.body().toString().equals("null")) {
-                    Log.d("user: ", "Not a valid word")
-                    false
-                }
-                else {
-                    Log.d("user: ", result.body().toString())
-                    true
+                withContext(Dispatchers.Main) {
+                    if (result.body().toString() == "null") {
+                        Log.d("user: ", "Not a valid word")
+                        // Update your UI, perhaps show an error message
+                    } else {
+                        val string = result.body().toString()
+                        Log.d("user: ", string)
+                        checkAnswer(parseString(string))
+                        // Update your UI with the valid word, e.g., checkAnswer(string)
+                    }
                 }
             }
             // reset string
@@ -153,5 +159,15 @@ class FragmentGame : Fragment() {
     override fun onDestroy() {
         timer?.cancel()
         super.onDestroy()
+    }
+
+    private fun parseString(string: String) : String {
+        val charArray = string.toCharArray()
+        val newArray : Array<Char?> = arrayOfNulls(charArray.size-14)
+        for (i in 14 until charArray.size-1) {
+            print(charArray[i])
+            newArray[i-14] = charArray[i]
+        }
+        return String(newArray.filterNotNull().toCharArray())
     }
 }

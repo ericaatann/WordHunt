@@ -28,6 +28,7 @@ drawable game_over_image
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable rounded_button_bg
+drawable text_border
 id action_fragmentGameOver_to_fragmentMenu
 id action_fragmentGameOver_to_gameFragment
 id action_fragmentGame_to_fragmentGameOver
@@ -66,11 +67,14 @@ id submit_button
 id timerTextView
 id titleTextView
 id tutorialButton
+id tutorialDescriptionTextView
+id tutorialImageView
 id word_view
 layout activity_main
 layout fragment_game
 layout fragment_gameover
 layout fragment_menu
+layout fragment_tutorial
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph

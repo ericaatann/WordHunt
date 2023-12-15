@@ -1809,6 +1809,7 @@ int drawable notification_tile_bg 0x7f070097
 int drawable notify_panel_notification_icon_bg 0x7f070098
 int drawable rounded_button_bg 0x7f070099
 int drawable test_custom_background 0x7f07009a
+int drawable text_border 0x7f07009d
 int drawable tooltip_frame_dark 0x7f07009b
 int drawable tooltip_frame_light 0x7f07009c
 int id ALT 0x7f080000
@@ -2273,6 +2274,8 @@ int id transition_scene_layoutid_cache 0x7f0801ca
 int id transition_transform 0x7f0801cb
 int id triangle 0x7f0801cc
 int id tutorialButton 0x7f0801cd
+int id tutorialDescriptionTextView 0x7f0801e1
+int id tutorialImageView 0x7f0801e2
 int id unchecked 0x7f0801ce
 int id uniform 0x7f0801cf
 int id unlabeled 0x7f0801d0
@@ -2381,6 +2384,7 @@ int layout design_text_input_start_icon 0x7f0b002c
 int layout fragment_game 0x7f0b002d
 int layout fragment_gameover 0x7f0b002e
 int layout fragment_menu 0x7f0b002f
+int layout fragment_tutorial 0x7f0b0074
 int layout material_chip_input_combo 0x7f0b0030
 int layout material_clock_display 0x7f0b0031
 int layout material_clock_display_divider 0x7f0b0032
