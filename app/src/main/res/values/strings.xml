@@ -10,4 +10,5 @@
     <string name="Tutorial">Tutorial</string>
     <string name="score_format">Score: %d</string>
     <string name="Word_View">						</string>
+    <string name="tutorial_description">Welcome to the tutorial! Follow these steps to learn how to use the app.\n\n1) Tap letters together by clicking the buttons.\n\n2) Make as many words as possible.</string>
 </resources>

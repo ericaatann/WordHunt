@@ -11,26 +11,17 @@
     android:background="@drawable/forest"
     tools:context=".MainActivity">
 
-    <!-- Tutorial Illustration -->
-    <ImageView
-        android:id="@+id/tutorialImageView"
-        android:layout_width="wrap_content"
-        android:layout_height="678dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="16dp"
-        android:scaleType="centerCrop" />
+
 
     <!-- Tutorial Description -->
     <TextView
         android:id="@+id/tutorialDescriptionTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tutorialImageView"
         android:layout_centerVertical="true"
-        android:layout_marginTop="-441dp"
+        android:layout_centerInParent="true"
         android:background="@drawable/text_border"
-        android:text="Welcome to the tutorial! Follow these steps to learn how to use the app.\n\n1) Tap letters together by clicking the buttons.\n\n2) Make as many words as possible."
+        android:text="@string/tutorial_description"
         android:textColor="@android:color/black"
         android:textSize="20sp" />
 
