@@ -12,9 +12,14 @@ class FragmentMenu : Fragment(R.layout.fragment_menu) {
         super.onViewCreated(view, savedInstanceState)
 
         val playButton: Button = view.findViewById(R.id.playButton)
+        val statsButton: Button = view.findViewById(R.id.statsButton)
 
         playButton.setOnClickListener {
             findNavController().navigate(R.id.action_fragmentMenu_to_fragmentGame)
+        }
+
+        statsButton.setOnClickListener {
+            findNavController().navigate(R.id.action_fragmentMenu_to_fragmentStats)
         }
     }
 }

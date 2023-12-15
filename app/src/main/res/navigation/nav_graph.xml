@@ -20,6 +20,9 @@
         <action
             android:id="@+id/action_fragmentMenu_to_fragmentGame"
             app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_fragmentMenu_to_fragmentStats"
+            app:destination="@id/fragmentStats" />
     </fragment>
     <fragment
         android:id="@+id/fragmentGameOver"
@@ -32,5 +35,11 @@
             android:id="@+id/action_fragmentGameOver_to_fragmentMenu"
             app:destination="@id/fragmentMenu" />
     </fragment>
+
+    <fragment
+        android:id="@+id/fragmentStats"
+        android:name="com.android.wordhunt.FragmentStats"
+        android:label="FragmentStats"
+        tools:layout="@layout/fragment_stats" />
 
 </navigation>

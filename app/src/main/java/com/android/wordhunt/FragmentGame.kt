@@ -1,5 +1,6 @@
 package com.android.wordhunt
 
+import android.content.Context
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.util.Log
@@ -164,7 +165,26 @@ class FragmentGame : Fragment() {
 
     private fun gameOver() {
         // Implement game over logic
+        saveGameStats()
         findNavController().navigate(R.id.action_fragmentGame_to_fragmentGameOver)
+    }
+
+    private fun saveGameStats() {
+        val sharedPreferences = requireActivity().getPreferences(Context.MODE_PRIVATE)
+        val editor = sharedPreferences.edit()
+
+        // Save highest score
+        val highestScore = sharedPreferences.getInt("highest_score", 0)
+        if (score > highestScore) {
+            editor.putInt("highest_score", score)
+            editor.apply()
+        }
+        // Save longest word
+        val longestWord = sharedPreferences.getString("longest_word", "") ?: ""
+        if (string.length > longestWord.length) {
+            editor.putString("longest_word", string)
+            editor.apply()
+        }
     }
 
     override fun onDestroy() {
